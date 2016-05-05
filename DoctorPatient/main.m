@@ -31,6 +31,14 @@ int main(int argc, const char * argv[]) {
     PatientInformation* form = [[PatientInformation alloc] init];
     [myPatient fillForm:form];
     [myDoctor receivePatientForm:form];
+    NSLog(@"D: What are your symptoms?");
+    Symptoms* symptoms = [Symptoms new];
+    symptoms.isfever = YES;
+    Prescription* thePrescription = [myDoctor requestMedication:symptoms];
+    NSLog(@"P: Thank you doctor");
+    [myPatient.prescriptionHistory setObject:thePrescription forKey:thePrescription.date];
+    
+    
     
 
 

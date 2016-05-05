@@ -29,6 +29,18 @@
     [self.patientArchive setObject:form forKey:[form.firstName stringByAppendingString:form.lastName]];
 }
 
+-(Prescription *)requestMedication:(Symptoms *)symptoms
+{
+    NSLog(@"Ok let me check which prescription is best for you");
+    Prescription* prescription = [Prescription new];
+    prescription.medicationName = @"Tylenol";
+    prescription.patientName = [self.patient.firstName stringByAppendingString:self.patient.lastName];
+    NSDate *currentDate = [[NSDate alloc] init];
+    prescription.date = currentDate;
+    NSLog(@"Ok, here is your prescription");
+    return prescription;
+}
+
 
 
 @end

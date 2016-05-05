@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "PatientInformation.h"
+@class Doctor;
 
 @interface Patient : NSObject
 
@@ -18,6 +19,7 @@
 @property (copy, nonatomic)NSString* phoneNumber;
 @property (nonatomic)BOOL hasHealthCard;
 @property (copy, nonatomic)NSString* healthCard;
+@property NSMutableDictionary* prescriptionHistory;
 
 -(instancetype)initWithFirstName:(NSString*)firstName LastName:(NSString*)lastName Age:(NSString *)age Email:(NSString*)email PhoneNumber:(NSString*)phoneNumber HealthCard:(NSString *)healthCard;
 -(void)fillForm:(PatientInformation *)form;

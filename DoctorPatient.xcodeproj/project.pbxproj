@@ -11,6 +11,8 @@
 		35FE013C1CDB9D240001D8DC /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FE013B1CDB9D240001D8DC /* Doctor.m */; };
 		35FE013F1CDB9D2F0001D8DC /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FE013E1CDB9D2F0001D8DC /* Patient.m */; };
 		35FE01421CDB9E8E0001D8DC /* PatientInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FE01411CDB9E8E0001D8DC /* PatientInformation.m */; };
+		35FE01451CDBAEAE0001D8DC /* Symptoms.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FE01441CDBAEAE0001D8DC /* Symptoms.m */; };
+		35FE01481CDBAF850001D8DC /* Prescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FE01471CDBAF850001D8DC /* Prescription.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,10 @@
 		35FE013E1CDB9D2F0001D8DC /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
 		35FE01401CDB9E8E0001D8DC /* PatientInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientInformation.h; sourceTree = "<group>"; };
 		35FE01411CDB9E8E0001D8DC /* PatientInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientInformation.m; sourceTree = "<group>"; };
+		35FE01431CDBAEAE0001D8DC /* Symptoms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symptoms.h; sourceTree = "<group>"; };
+		35FE01441CDBAEAE0001D8DC /* Symptoms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Symptoms.m; sourceTree = "<group>"; };
+		35FE01461CDBAF850001D8DC /* Prescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prescription.h; sourceTree = "<group>"; };
+		35FE01471CDBAF850001D8DC /* Prescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prescription.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,10 @@
 				35FE013E1CDB9D2F0001D8DC /* Patient.m */,
 				35FE01401CDB9E8E0001D8DC /* PatientInformation.h */,
 				35FE01411CDB9E8E0001D8DC /* PatientInformation.m */,
+				35FE01431CDBAEAE0001D8DC /* Symptoms.h */,
+				35FE01441CDBAEAE0001D8DC /* Symptoms.m */,
+				35FE01461CDBAF850001D8DC /* Prescription.h */,
+				35FE01471CDBAF850001D8DC /* Prescription.m */,
 			);
 			path = DoctorPatient;
 			sourceTree = "<group>";
@@ -133,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35FE01451CDBAEAE0001D8DC /* Symptoms.m in Sources */,
+				35FE01481CDBAF850001D8DC /* Prescription.m in Sources */,
 				35FE013F1CDB9D2F0001D8DC /* Patient.m in Sources */,
 				35FE013C1CDB9D240001D8DC /* Doctor.m in Sources */,
 				35FE01421CDB9E8E0001D8DC /* PatientInformation.m in Sources */,
